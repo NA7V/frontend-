@@ -1,0 +1,39 @@
+[
+    {
+    "nombre": "Nenufar",
+    "apellido": "Torrealba",
+    "edad": "25",
+    "precioAsiento": "200",
+    "pagado": true,
+    "asiento": {
+        "numero": 13,
+        "letra": "F",
+        "cargador": false
+    },
+    "historial": [
+        {
+            "salida": "Nueva York",
+            "destino":"Chicago",
+            "fecha": "19/10/2022"
+        },
+        {
+            "salida": "Nueva York",
+            "destino":"Barcelona",
+            "fecha": "27/10/2022"
+        }
+    ]
+     },
+    {
+    "nombre": "Luis",
+    "apellido": "Fuentes",
+    "edad": "27",
+    "precioAsiento": "20",
+    "pagado": true,
+    "asiento": {
+        "numero": 3,
+        "letra": "F",
+        "cargador": true
+    },
+    "historial":[]
+    }
+]
