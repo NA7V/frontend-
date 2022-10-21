@@ -9,7 +9,7 @@
   <meta NAME="description" content="portafolio web Nenufar"> 
   <meta http-equiv="refresh" content="30">
   <meta NAME="viewport" content="width=device-width, initial-scale=1">
-
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"/>
   <link rel="stylesheet" href="style.css"/>
 
   <title> Portafolio Web NA7V</title>
@@ -19,36 +19,69 @@
   <!-- crear hojas de js para insertar
   <script src ="./main.js" defer></script>
   -->
-
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="https://www.concordia.gob.ar/sites/all/themes/programar/images/arg-programa.png" alt="Yo Programo" width="90" height="30" class="d-inline-block align-text-top"> Nenufar Torrealba
+      </a>
+    </div>
+  </nav>
   <!--baner informacion resumida-->
-  <div class="card mat-card" id="primera parte">
-    <div id="banner"><img class="" src="https://i.pinimg.com/564x/ad/86/e2/ad86e20922aabe47669c3343e1f89f38.jpg" width="100%" height="400"></div>
-    <div id="info" style="padding: 10px">
+  <div class="container"></div>
+   <div class="card mat-card mt-2" id="primera parte">
+    <div id="banner"><img class="background-top" src="https://cutewallpaper.org/28/computer-programmer-wallpaper-hd/2525518912.jpg" width="1240" height="400" radios-border="20px"></div>
+     <div id="info" style="padding: 40px">
+
        <div id="info-img">  
-       <img class="foto de perfil" src="https://lh3.googleusercontent.com/a/ALm5wu0FTPMh5nuiBrYGewmp9eg7tIs4uHPLLlnx3n_yxw=s288-p-rw-no" width="200" height="200"> </div>
-    <div id="info-data" style="padding: 5px">
-      <div>
+       <img class="foto-de-perfil mx-5" src="C:\Users\nenur\Downloads\Diseño sin título.png" width="200" height="200"></div>
+       <button type="button " class="btn btn-dark">Edit</button>
+       <div id="info-data" style="padding: 10px">
+        <div>
         <h1>Nenufar Torrealba</h1>
-         <p>Estudiante CBC de la UBA y Full Stack Developer Jr. en desarrollo 
-         <span> Buenos Aires. Argentina</span></p>
+         <p>Estudiante CBC de la UBA y Full Stack Developer Jr. en desarrollo</p>
+         <p><small>Buenos Aires. Argentina</small></p>
+        
+         <div class="d-grid gap-2 d-md-block">
+          <button class="btn btn-outline-dark" type="button">Tengo interes en</button>
+          <button class="btn btn-outline-dark" type="button">Añadir Seccion</button>
+          <button class="btn btn-outline-dark" type="button">Mas</button>
+        </div>
       </div>
+       </div>
     </div>
    </div>
   </div>
  
   <!-- ACERCA DE MI-->
-  <div class="mat-card" id="segunda parte">
+  <div class="card" id="segunda parte">
+    <div class="card-body">
     <h1>Acerca de mi</h1>
     <p>Estudiante curiosa de la programacion, amante del buen cafe y de paraisos ocultos</p>
+   
+    <div class="d-grid gap-2 d-md-flex justify-content-md-end" >
+      <button class="btn btn-outline-dark" type="button">Editar</button>
+      <button class="btn btn-outline-dark" type="button">Borrar</button>
+      <button class="btn btn-outline-dark" type="button">Aceptar</button>
+    </div>
+  </div>
   </div>
 <!-- EXPERIENCIA -->
-  <div class="mat-card" id="tercera parte">
+  <div class="card" id="tercera parte">
+    <div class="card-body">
     <h1>Experiencia laboral</h1>
+    
+    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+      <button class="btn btn-outline-dark" type="button">Editar</button>
+      <button class="btn btn-outline-dark" type="button">Borrar</button>
+      <button class="btn btn-outline-dark" type="button">Aceptar</button>
+    </div>
+    </div>
   </div>
 <!--EDUCACION-->
-  <div class="mat-card" id="cuarta parta">
+  <div class="card" id="cuarta parta">
+    <div class="card-body">
     <h1>Educacion</h1>
-    <ul id="info-details" >
+    <ul id="info-details">
      <li> 
       <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/UC_logo.png" width="40" height="70">
       <h2>Universidad De Carabobo, Ingieneria Civil (cuarto semestre)</h2>
@@ -62,8 +95,13 @@
      <h2>Universidad de Buenos Aires, Ciencias Ambientales (CBC)</h2>
      </li>
     </ul>
+    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+      <button class="btn btn-outline-dark" type="button">Borrar</button>
+      <button class="btn btn-outline-dark" type="button">Editar</button>
+      <button class="btn btn-outline-dark" type="button">Aceptar</button>
+    </div>
+</div>
   </div>
-
 
 
   <!-- colocar despues -->

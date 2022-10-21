@@ -1,38 +1,32 @@
 .mat-card {
-border-radius: 20px 20px 20px 20px;
-border: 5px inset;
-margin: 30px 10px;
+border: 2px inset;
+margin: 40px;
 padding: 10px;
-border-color: #4d494b;
+}
+
+.card {
+    border: 2px inset;
+    margin: 40px;
+    padding: 10px;
+    }
+
+.foto-de-perfil {
+    position:top;
+    border-radius: 100px;
+    float: left;
+    z-index: 1;
 }
 
 h1 {
-color: #0e0909;
-background: #fff;
-text-shadow: #FFF 0px 0px 5px,
- #FFF 0px 0px 10px, 
- #FFF 0px 0px 15px,
- #f174b3 0px 0px 20px,
- #f174b3 0px 0px 30px,
- #f174b3 0px 0px 40px,
- #f174b3 0px 0px 50px,
- #f174b3 0px 0px 75px;
+    font-size: 20px;
 }
 
-p {
-font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-font-size: 20px;
-letter-spacing: 0px;
-word-spacing: -0.8px;
-color: #000000;
-font-weight: 400;
+body {
+background-image: url(https://www.latercera.com/resizer/sjr5z7PtsVq-HUpPkvgvVF3jmkI=/900x600/smart/cloudfront-us-east-1.images.arcpublishing.com/copesa/BJR47U2GXRCFZFOAZH55MXUITE.jpg);
 }
 
 ul {
-font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-font-size: 10px;
-letter-spacing: 0px;
-word-spacing: -0.8px;
-color: #000000;
-font-weight: 400;
+    font-size: 1rem;
+    list-style-type: square;
+    list-style-position: inside;  
 };
