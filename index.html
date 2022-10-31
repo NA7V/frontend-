@@ -28,7 +28,7 @@
   </nav>
   <!--baner informacion resumida-->
   <div class="container"></div>
-   <div class="card mat-card mt-2" id="primera parte">
+   <div class="card mat-card mt-2" id="1">
     <div id="banner"><img class="background-top" src="https://cutewallpaper.org/28/computer-programmer-wallpaper-hd/2525518912.jpg" width="1240" height="400" radios-border="20px"></div>
      <div id="info" style="padding: 40px">
 
@@ -103,7 +103,9 @@
 </div>
   </div>
 
-
+  <div class="card mat-card"> <div id="Nombre"></div></div>
+  <div class="card mat-card"> <div id="Apellido"></div></div>
+  <div class="card mat-card"> <div id="Titulos"></div></div>
   <!-- colocar despues -->
 <!-- HARD Y SXOFT KILL-->
   <div>
@@ -113,6 +115,24 @@
   <div>
     
   </div> 
+
+
+  <script src="objetos.js"></script>
+  <script src=""></script>
+  <script src=""></script>
+  <script>
+function foo() {
+  var undefined = 2; 
+  console.log(undefined*2);
+  var newDiv = document.createElement("div");
+  var newContent = document.createTextNode(" aja no se para que sirve esto");
+  newDiv.appendChild(newContent);
+  var currentDiv =document.getElementById("1");
+  document.body.insertBefore(newDiv, currentDiv);
+}
+foo();
+
+  </script>
 </body>
 
 </html>
